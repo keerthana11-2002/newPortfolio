@@ -25,7 +25,7 @@ const Projects = () => {
       </h1>
 
       <motion.div
-        className="grid grid-cols-1 ml-8  lg:ml-32 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 mx-auto"
+        className="grid grid-cols-1 ml-6  lg:ml-32 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 mx-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}

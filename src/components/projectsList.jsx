@@ -57,9 +57,9 @@ const ProjectsList = () => {
           {
             title: "Portfolio",
             img: portfolio,
-            link: "https://vercel.com/keerthanas-projects-fb52691c/portfolio1",
+            link: "https://portfolio-delta-gold-51.vercel.app/",
             description: "My personal portfolio website.",
-            code: "https://github.com/keerthana11-2002/portfolio1",
+            code: "https://github.com/keerthana11-2002/newPortfolio",
           },
         ].map((project, index) => (
           <div
