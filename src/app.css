@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 80px;
+  margin-left: 60px;
+  font-style: normal;
+  color: rgb(26, 26, 216);
+}
+@media (max-width: 768px) {
+  .logo {
+    font-size: 50px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 60px;
+    margin-left: 50px;
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 1s ease-out;
+}
