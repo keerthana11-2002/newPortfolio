@@ -52,12 +52,12 @@ export default function Contact() {
   }, 4000);
 
   return (
-    <section className="py-20" id="contact">
+    <section className="py-16" id="contact">
       <div className="container ml-20 px-4 -mt-20">
-        <h2 className="md:-ml-32 text-5xl font-bold md:text-center  text-blue-700">
+        <h2 className="md:-ml-32 text-4xl font-bold md:text-center  text-blue-700">
           Contacts
         </h2>
-        <div className="max-w-7xl lg:ml-10  md:mt-10  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 -ml-24 -mt-14">
+        <div className="max-w-7xl lg:ml-10  md:mt-10   grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 -ml-24 ">
           <motion.form
             ref={formRef}
             onSubmit={handleSubmit}

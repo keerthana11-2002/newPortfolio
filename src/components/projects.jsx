@@ -19,7 +19,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="project" className="mt-10">
+    <div id="project" className="md:mt-10">
       <h1 className="text-4xl font-bold text-center mb-16 text-blue-700">
         Projects
       </h1>
@@ -77,7 +77,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-4 text-black">
-              <div className="flex gap-4 justify-center">
+              <div className="flex gap-32 justify-center">
                 <a
                   href={project.link}
                   target="_blank"
@@ -90,7 +90,7 @@ const Projects = () => {
                   href={project.code}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-9 h-9 dark:text-white border-2 border-black dark:border-white rounded-full hover:text-blue-950 hover:border-2 hover:border-blue-950 transition"
+                  className="flex mt-1  items-center justify-center w-9 h-9 dark:text-white border-2 border-black dark:border-white rounded-full hover:text-blue-950 hover:border-2 hover:border-blue-950 transition"
                 >
                   <IoCodeSlashOutline size={25} />
                 </a>

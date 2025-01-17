@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="p-8" id="experience">
+    <div className="p-4" id="experience">
       <motion.h1
         className="text-center text-blue-700 text-4xl font-bold mb-8"
         initial={{ opacity: 0, y: -50 }}

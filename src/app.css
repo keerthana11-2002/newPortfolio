@@ -23,7 +23,7 @@
 @media (max-width: 480px) {
   .logo {
     font-size: 60px;
-    margin-left: 50px;
+    margin-left: px;
   }
 }
 @keyframes slide-in {

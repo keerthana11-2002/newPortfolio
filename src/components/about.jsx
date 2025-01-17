@@ -35,7 +35,7 @@ const About = () => {
           <h1 className="text-4xl  font-bold text-blue-700 text-center dark:text-blue-700">
             Who I am
           </h1>
-          <p className="md:text-xl lg:ml-32 text-medium  text-gray-700 dark:text-white tracking-wide">
+          <p className="md:text-xl ml-2 lg:ml-32 text-medium  text-gray-700 dark:text-white tracking-wide">
             My name is <span className="font-bold">Keerthana J K</span>. I'm a
             Frontend Developer based in Bangalore.
             <br />

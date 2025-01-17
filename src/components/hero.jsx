@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
           <GiHamburgerMenu
             onClick={handleClick}
-            className=" text-3xl  md:text-4xl md:mr-16 mr-14  mt-7  transition duration-300 transform hover:scale-110 hover:-rotate-180 cursor-pointer hover:text-blue-700"
+            className=" text-3xl  md:text-4xl md:mr-16 mr-8  mt-7  transition duration-300 transform hover:scale-110 hover:-rotate-180 cursor-pointer hover:text-blue-700"
           />
           {isOpen && <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>
