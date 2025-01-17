@@ -75,7 +75,7 @@ const Hero = () => {
                   Download CV
                 </button>
               </Link>
-              <Link to="/contact">
+              <Link to="#contact">
                 <button className="px-6 py-3 -mt-5  text-sm mr-6 md:text-medium font-medium text-white rounded-3xl bg-[rgb(15,15,190)] hover:bg-black hover:text-white dark:text-black hover:dark:text-black hover:dark:bg-gray-300">
                   Let's Connect
                 </button>
