@@ -1,46 +1,43 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { FaGraduationCap } from "react-icons/fa6";
-import education from "/education.png";
+import education from '/education.png';
 
 const educationData = [
   {
-    year: "2024",
-    degree: "Frontend Intern",
-    school: "Unified Mentor",
-    description:
-      "Developed responsive web applications using React, improved UI/UX, and collaborated with a team to deliver scalable solutions.",
-    image: "side1.png",
+    year: '2024',
+    degree: 'Frontend Intern',
+    school: 'Unified Mentor',
+    description: 'Developed responsive web applications using React, improved UI/UX, and collaborated with a team to deliver scalable solutions.',
+    image: 'side1.png'  
   },
   {
-    year: "2023-2024",
-    degree: "FrontEnd Development",
-    school: "AlmaBetter Institution",
-    description: "",
-    image: "side1.png",
+    year: '2023-2024',
+    degree: 'FrontEnd Development',
+    school: 'AlmaBetter Institution',
+    description: '',
+    image: 'side1.png'  
   },
   {
-    year: "2020 - 2023",
-    degree: "Bachelor of Science in Computer Science",
-    school: "Gonzaga College of Arts And Science",
-    description: "",
-    image: "side2.png",
+    year: '2020 - 2023',
+    degree: 'Bachelor of Science in Computer Science',
+    school: 'Gonzaga College of Arts And Science',
+    description: '',
+    image: 'side2.png' 
   },
   {
-    year: "2018 - 2020",
-    degree: "Selva Matric Hr Sec School",
-    school: "Krishnagiri, Tamilnadu",
-    description: "",
-    image: "side3.png",
-  },
+    year: '2018 - 2020',
+    degree: 'Selva Matric Hr Sec School',
+    school: 'Krishnagiri, Tamilnadu',
+    description: '',
+    image: 'side3.png' 
+  }
 ];
 
 export default function Education() {
   return (
     <section className="py-20" id="education">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16 text-blue-700">
-          Education Journey
-        </h2>
+        <h2 className="text-4xl font-bold text-center mb-16 text-blue-700">Education Journey</h2>
 
         <div className="flex flex-col lg:flex-row justify-center items-center space-y-10 lg:space-y-0 lg:space-x-10">
           <motion.div
@@ -73,20 +70,13 @@ export default function Education() {
                 >
                   <div className="flex items-center gap-2 text-blue-600 mb-2">
                     <div className="w-9 h-9 rounded-full bg-blue-500 flex items-center justify-center">
-                      <FaGraduationCap
-                        size={24}
-                        className="dark:text-white text-black"
-                      />
+                      <FaGraduationCap size={24} className="dark:text-white text-black" />
                     </div>
 
                     <span className="text-medium">{item.year}</span>
                   </div>
-                  <h3 className="text-lg font-bold text-black dark:text-white mb-1">
-                    {item.degree}
-                  </h3>
-                  <p className="text-medium text-black dark:text-white mb-2">
-                    {item.school}
-                  </p>
+                  <h3 className="text-lg font-bold text-black dark:text-white mb-1">{item.degree}</h3>
+                  <p className="text-medium text-black dark:text-white mb-2">{item.school}</p>
                 </motion.div>
               </motion.div>
             ))}

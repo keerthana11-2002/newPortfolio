@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import About from "./components/about";
 import { FaMoon } from "react-icons/fa";
 import { MdOutlineLightMode } from "react-icons/md";
 import {
@@ -66,7 +65,7 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="absolute md:mt-[600px] mt-[750px] ml-[300px] md:ml-[1410px] text-4xl p-1 rounded-md dark:text-gray-300 transition duration-300 transform hover:scale-110 hover:rotate-180 "
+        className="absolute md:mt-[600px] mt-[750px] ml-[300px] md:ml-[1410px] text-4xl  rounded-md dark:text-gray-300 transition duration-300 transform hover:scale-110 hover:rotate-180 "
       >
         {theme === "dark" ? <MdOutlineLightMode /> : <FaMoon />}
       </button>
