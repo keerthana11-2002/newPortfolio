@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { MdOutlineLightMode } from "react-icons/md";
 import {
@@ -65,11 +65,11 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="absolute md:mt-[600px] mt-[750px] ml-[300px] md:ml-[1410px] text-4xl  rounded-md dark:text-gray-300 transition duration-300 transform hover:scale-110 hover:rotate-180 "
+        className="absolute lg:mt-[600px] mt-[750px] ml-[300px] lg:ml-[1410px] text-4xl  rounded-md dark:text-gray-300 transition duration-300 transform hover:scale-110 hover:rotate-180 "
       >
         {theme === "dark" ? <MdOutlineLightMode /> : <FaMoon />}
       </button>
-      <div className="bg-white dark:bg-gradient-to-l from-blue-950 to-blue-900  text-black dark:text-white">
+      <div className="bg-white dark:bg-gradient-to-l from-blue-900 to-blue-900  text-black dark:text-white">
         <RouterProvider router={router} />
       </div>
     </>
