@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import  { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { GiLaptop } from "react-icons/gi";
@@ -40,8 +40,8 @@ export default function Contact() {
       if (formRef.current) {
         formRef.current.reset();
       }
-    } catch (err) {
-      setError("Failed to send message. Please try again later.");
+    } catch (error) {
+      setError("Failed to send message. Please try again later.",error);
     } finally {
       setIsSubmitting(false);
     }
@@ -191,7 +191,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com/keerthana11-2002"
+                  href="https://www.linkedin.com/in/keerthana-j-k-16b6442a0/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4"

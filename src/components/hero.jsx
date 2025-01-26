@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../app.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import photo from "/photo.png";
@@ -64,7 +64,7 @@ const Hero = () => {
               />
             </h2>
             <p className="text-black p-7 -mt-7 md:-ml-5  dark:text-gray-400 text-medium md:text-lg leading-relaxed tracking-wider">
-              I'm passionate about crafting responsive, user-friendly interfaces
+              I am passionate about crafting responsive, user-friendly interfaces
               with modern web technologies. Turning ideas into visually
               appealing and functional designs is my forte, ensuring seamless
               user experiences.
@@ -77,7 +77,7 @@ const Hero = () => {
               </Link>
               <Link to="#contact">
                 <button className="px-6 py-3 -mt-5  text-sm mr-6 md:text-medium font-medium text-white rounded-3xl bg-[rgb(15,15,190)] hover:bg-black hover:text-white dark:text-black hover:dark:text-black hover:dark:bg-gray-300">
-                  Let's Connect
+                  Lets Connect
                 </button>
               </Link>
             </div>
@@ -86,7 +86,7 @@ const Hero = () => {
 
         <div className="md:flex gap-x-2 mt-4 hidden">
           <a
-            href="https://www.linkedin.com/in/keerthana-k-16b6442a0/"
+            href="https://www.linkedin.com/in/keerthana-j-k-16b6442a0/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-4"
