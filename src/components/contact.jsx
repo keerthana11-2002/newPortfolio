@@ -12,6 +12,7 @@ import {
   FaGithub,
   FaMapPin,
   FaPhoneAlt,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { MdOutlineMessage } from "react-icons/md";
 import { IoSendOutline } from "react-icons/io5";
@@ -162,7 +163,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="p-4 dark:bg-gray-500 hover:bg-blue-800 bg-black dark:hover:bg-blue-700 dark:hover:text-white text-white dark:text-gray-800 rounded-full shadow-lg"
                 >
-                  <FaPhoneAlt className="text-2xl" />
+                  <FaWhatsapp className="text-2xl" />
                 </a>
                 <a
                   href="https://wa.me/917397013952"
