@@ -11,7 +11,6 @@ import {
   FaLinkedin,
   FaGithub,
   FaMapPin,
-  FaPhoneAlt,
   FaWhatsapp,
 } from "react-icons/fa";
 import { MdOutlineMessage } from "react-icons/md";
