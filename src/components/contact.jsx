@@ -191,7 +191,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/keerthana-j-k-16b6442a0/"
+                  href="https://github.com/keerthana11-2002"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4"
