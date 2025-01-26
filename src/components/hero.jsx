@@ -70,7 +70,7 @@ const Hero = () => {
               user experiences.
             </p>
             <div className="flex justify-center md:justify-start space-x-4 gap-3 md:gap-10 mt-6">
-              <Link to="https://drive.google.com/drive/home">
+              <Link to="https://drive.google.com/file/d/1BYKemRccVPxEiZl6DB1tQqHsK_sZa5zh/view?usp=drivesdk">
                 <button className="px-6 py-3 -mt-5 ml-4 text-sm  md:text-medium border-blue-700 bg-white text-blue-40 rounded-3xl border-[3px] font-medium hover:bg-black hover:text-white hover:border-hidden dark:bg-blue-900 hover:dark:bg-gray-300 dark:hover:text-black">
                   Download CV
                 </button>
