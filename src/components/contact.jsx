@@ -152,7 +152,7 @@ export default function Contact() {
                   href="mailto:jkkeerthana10@gmail.com"
                   className="dark:text-white text-lg font-semibold tracking-wide"
                 >
-                  jkkeerthana@gmail.com
+                  jkkeerthana10@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-6">
