@@ -182,7 +182,7 @@ export default function Contact() {
 
               <div className="flex gap-x-6 ml-20 mt-10">
                 <a
-                  href="https://www.linkedin.com/in/keerthana-k-16b6442a0/"
+                  href="https://www.linkedin.com/in/keerthana-j-k-16b6442a0/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4"
