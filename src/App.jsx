@@ -65,8 +65,7 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="absolute lg:mt-[600px] mt-[750px] ml-[300px] lg:ml-[1410px] text-4xl  rounded-md dark:text-gray-300 transition duration-300 transform hover:scale-110 hover:rotate-180 "
-      >
+        className="fixed top-4 right-4 text-4xl text-gray-900 dark:text-yellow-500 bg-white dark:bg-gray-800 rounded-md p-2 shadow-lg transition duration-300 transform hover:scale-110 hover:rotate-180">
         {theme === "dark" ? <MdOutlineLightMode /> : <FaMoon />}
       </button>
       <div className="bg-white dark:bg-gradient-to-l from-blue-900 to-blue-900  text-black dark:text-white">
